@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CargoDeliveryCalculator", "CargoDeliveryCalculator\CargoDeliveryCalculator.csproj", "{8DBF80DD-594E-4E90-86D1-85ECAB0D0652}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CargoDeliveryCalculator.Tests", "CargoDeliveryCalculator.Tests\CargoDeliveryCalculator.Tests.csproj", "{F716ADB6-2306-40C8-BF4A-474D4D136152}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8DBF80DD-594E-4E90-86D1-85ECAB0D0652}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8DBF80DD-594E-4E90-86D1-85ECAB0D0652}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8DBF80DD-594E-4E90-86D1-85ECAB0D0652}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8DBF80DD-594E-4E90-86D1-85ECAB0D0652}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F716ADB6-2306-40C8-BF4A-474D4D136152}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F716ADB6-2306-40C8-BF4A-474D4D136152}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F716ADB6-2306-40C8-BF4A-474D4D136152}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F716ADB6-2306-40C8-BF4A-474D4D136152}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,14 @@
+﻿using Microsoft.EntityFrameworkCore.Storage;
+
+namespace CargoDeliveryCalculator.Persistence;
+
+public interface IUnitOfWork                                                                                                                                                                                                                                                                                      
+  {                                                                                                                                                                                                                                                                                                                 
+      Task<IDbContextTransaction> BeginTransactionAsync();                                                                                                                                                                                                                                                          
+  }                                                                                                                                                                                                                                                                                                                 
+                                                                                                                                                                                                                                                                                                                    
+  public class UnitOfWork(AppDbContext context) : IUnitOfWork                                                                                                                                                                                                
+  {                                                                                                                                                                                                                                                                                                                 
+      public Task<IDbContextTransaction> BeginTransactionAsync() => context.Database.BeginTransactionAsync();                                                                                                                                                                                                       
+  }                                                                                                                                                                                                                                                                                                                 
+        
